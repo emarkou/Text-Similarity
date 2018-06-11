@@ -17,7 +17,7 @@ library(digest)
 ########## Loading of documents
 
 # User defines here the appropriate path to the files' folder
-my_path <- "/home/eleni/reuters21578/"
+my_path <- "path/to/data/folder"
 
 # A list is created containing the appropriate file names
 files <- list.files(path = my_path, pattern = "*.sgm")
